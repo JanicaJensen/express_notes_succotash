@@ -1,8 +1,7 @@
 //require dependencies
 const router = require('express').Router();
 const path = require('path');
-const store = require('/Users/janicajensen/bootcamp/expressnotessuccotash/express_notes_succotash/db/store.js');
-//Notes are saved at api/notes
+const store = require('routes/apiRoutes/notesRoutes.js');
 router.get('/notes', (req, res) => {
   store
     .getNotes()
