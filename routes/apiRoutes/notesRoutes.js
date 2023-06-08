@@ -1,7 +1,7 @@
 //require dependencies
 const router = require('express').Router();
 const path = require('path');
-const store = require('routes/apiRoutes/notesRoutes.js');
+const store = require('../../db/store');
 router.get('/notes', (req, res) => {
   store
     .getNotes()
