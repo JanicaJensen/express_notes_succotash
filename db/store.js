@@ -1,10 +1,13 @@
+// adding constants that will be required, would be easier to do all of this with a database no??
 const util = require('util');
 const fs = require('fs');
 const { v4: uuid4 } = require("uuid");
 
+// asynchronous functions
 const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// class store that will be used to read, write, add, and remove notes
 class Store {
     read() {
         return readFileAsync('db/db.json', "utf8")

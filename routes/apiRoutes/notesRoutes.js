@@ -1,3 +1,4 @@
+//require dependencies
 const router = require('express').Router();
 const path = require('path');
 const store = require('/Users/janicajensen/bootcamp/expressnotessuccotash/express_notes_succotash/db/store.js');
@@ -13,9 +14,9 @@ router.get('/notes', (req, res) => {
     })
 });
 
-//Path of what the arrays will be
+//Giving the path of the array that will be there
 router.post('/notes', (req, res) => {
-  // set id based on what the next index of the array will be
+  // setting an id based on the array index 
   console.log(req.body)
   store
     .addNotes(req.body)
