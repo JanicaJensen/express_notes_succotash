@@ -1,5 +1,5 @@
 # Express Note Taker
-A simple SVG logo maker, done as an assignment for class. 
+A simple note-taking app. 
 
 ## Description
 
@@ -20,7 +20,7 @@ This is an app that allows users the simple task of saving notes. The notes are 
 
 ---
 
-The starter code was provided by University of Utah & EdEX bootcamps and I added to it mostly with the help of the internet, though it was much easier to come back and fix it after having done project 2. 
+The starter code was provided by University of Utah & EdEX bootcamps and I added to it mostly with the help of many different students from class and the internet but was never able to get it working, though it was much easier to come back and fix it after having done project 2. 
 
 _Other tools utilized:_
 
