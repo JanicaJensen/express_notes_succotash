@@ -36,7 +36,7 @@ This was there to be a pseudo-databse package. It allows us to keep track of our
 
 ---
 
-It should be as simple as navigating to the Heroku deployment URL which is []. 
+It should be as simple as navigating to the Heroku deployment URL which is https://express-notes-succotash.herokuapp.com/ . 
 
 ## Usage
 
@@ -44,6 +44,7 @@ It should be as simple as navigating to the Heroku deployment URL which is [].
 
 One should be able to navigate to the URL and then click "get started" and be taken to a home page that allows for the user to enter in notes. The user can enter a note title and a note. The note title has a character limit of 28. The user cannot save the note without entering a title and a note itself. They are then saved in json format in a backend file. 
 
+![Gif of the app](gifnotetaker.gif)
 
 ## Tests
 
